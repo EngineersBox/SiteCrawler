@@ -1,5 +1,9 @@
 from bs4 import BeautifulSoup
+from urllib.parse import urlsplit
+from urllib.parse import urlparse
+from collections import deque
 import requests, requests.exceptions, re, sys, os, subprocess, argparse, asyncio, uuid
+
 
 class URLState:
 
