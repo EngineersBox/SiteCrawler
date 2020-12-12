@@ -55,7 +55,7 @@ make setup_unix
 ## Running the Script
 
 ```cmd
-python3 map_website.py -d https://webscrapethissite.org -o test.txt
+python3 crawler.py -d https://webscrapethissite.org -o test.txt
 ```
 
 ---
